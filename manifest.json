@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "TAMU Registration Helper",
+  "description": "An easy to use tool, to help simplify the already stressful process of class registration.",
+  "version": "1.0",
+  "background": { "service_worker": "background.js" },
+  "content_scripts": [{
+    "matches": ["https://tamu.collegescheduler.com/*", "https://www.w3schools.com/*"],
+    "js": ["script.js"]
+                    }],
+    "permissions": [
+        "tabs", "http://*/*", "webNavigation", "scripting", "http://*/*"
+    ],
+    "host_permissions": [
+        "*://tamu.collegescheduler.com/*"
+      ],
+  "action": {
+    "default_popup": "hello.html",
+    "default_icon": "tamu_logo.png"
+  },
+  "icons": {
+    "16": "tamu_logo.png",
+    "32": "tamu_logo.png",
+    "48": "tamu_logo.png",
+    "128": "tamu_logo.png"
+  }
+}
