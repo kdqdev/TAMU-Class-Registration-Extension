@@ -1,7 +1,7 @@
 # TAMU Class Registration
 
 
-Demo Link: https://www.youtube.com/watch?v=jehgi7gKeDk
+Demo Link: https://drive.google.com/file/d/1oJ965oA5KlkkhTDsskj_8mffsD_2yWkA/view?usp=share_link
 
 ## Inspiration: 
 Our inspiration for this project stems from the past struggles our team has with the process of registration.  The goal of this project was to simplify that stressful process.
